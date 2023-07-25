@@ -14,12 +14,12 @@
 
 <body>
     <header>
-        <a href="index.html" id="logo">B</a>
+        <a href="#top" id="logo">B</a>
         <ul class="navList">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="./pages/about.html">About</a></li>
-            <li><a href="./pages/portfolio.html">Portfolio</a></li>
-            <li><a href="./pages/contact.html">Contact</a></li>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
         <div class="burger">
@@ -31,18 +31,371 @@
     </header>
 
     <section>
-        <div class="secText">
+        <div id="top" class="secText">
             <h2>Hello! My Name is</h2>
             <h1 id="nameh1">Bar Ben David.</h1>
-            <h2>I'm a Full Stack Web Developer.</h2>
-            <div id="projectsBtn">
-                <a href="./pages/portfolio.html">View Portfolio</a>
+            <h2 id="helloh2">I'm a Full Stack Web Developer.</h2>
+            <div id="projectButton">
+                <a href="#projects">View Portfolio</a>
             </div>
-
         </div>
 
-    </section>
 
+        <div id="projects">
+            <div id="projectsTitle" data-aos="fade-up">
+                <h1>Portfolio</h1>
+            </div>
+
+            <div id="snake" data-aos="fade-up">
+                <h1 class="projectTitle">Snake</h1>
+                <div class="projectImage" id="snakeImg"></div><br>
+                <!-- Description of project -->
+                <div class="project-description">
+                    <p class="p-project">
+                        The snake game presents the old and well-known game.
+                        The score is determined by the length of the snake.
+                        In this game there are improvements to the game experience by using sound effects, record
+                        keeping by local storage so
+                        that the user has a goal to break his personal record or the record of his friends.
+                        The game is addictive and suitable for all ages.
+                    </p>
+                    <p class="p-project p-tech minTech">
+                        Technologies: <img src="/logos/htmllogo.png" alt="HTML"> <img src="/logos/csslogo.png"
+                            alt="CSS"> <img src="/logos/jslogo.png" alt="JS">
+                    </p>
+                </div>
+
+                <!-- Project Links -->
+
+                <div class="projectLinks">
+                    <a href="https://barbendavid99.github.io/Snake/" target="_blank">Try Demo <img
+                            src="/assets/externallink2.png" /></a>
+                    <a href="https://github.com/BarBenDavid99/Snake" target="_blank">View Code <img
+                            src="/logos/github3.png" /></a>
+                    <a href="toDownload/snake.rar" download>Download <img src="/assets/download.png" /></a>
+                </div>
+
+
+
+                <div id="multipicationTable" data-aos="fade-up">
+                    <h1 class="projectTitle">Multipication Table</h1>
+                    <div class="projectImage" id="multipicationTableImg"></div><br>
+                    <!-- Description of project -->
+                    <div class="project-description">
+                        <p class="p-project">
+                            In the multiplication table, the user can tap on one number in each axis and then the result
+                            will be highlighted in
+                            color.
+                            In addition, when the user hovers over any number, a bubble will appear that will show the
+                            calculation for the result.
+                            This app can be very effective for children who have difficulty with this.
+                            In addition, the application has an option to invert colors and this will contribute to
+                            accessibility for people with
+                            disabilities.
+                        </p>
+                        <p class="p-project p-tech minTech">
+                            Technologies: <img src="/logos/htmllogo.png" alt="HTML"> <img src="/logos/csslogo.png"
+                                alt="CSS"> <img src="/logos/jslogo.png" alt="JS">
+                        </p>
+                    </div>
+
+                    <!-- Project Links -->
+
+                    <div class="projectLinks">
+                        <a href="https://barbendavid99.github.io/Multiplication-table/" target="_blank">Try Demo <img
+                                src="/assets/externallink2.png" /></a>
+                        <a href="https://github.com/BarBenDavid99/Multiplication-table" target="_blank">View Code <img
+                                src="/logos/github3.png" /></a>
+                        <a href="toDownload/multiplicationtable.rar" download>Download <img
+                                src="/assets/download.png" /></a>
+                    </div>
+
+
+
+                    <div id="calculator" data-aos="fade-up">
+                        <h1 class="projectTitle">Calculator</h1>
+                        <div class="projectImage" id="calculatorImg"></div><br>
+                        <!-- Description of project -->
+                        <div class="project-description">
+                            <p class="p-project">
+                                This application presents a simple calculator built in an inviting and user-friendly
+                                design.
+                            </p>
+                            <p class="p-project p-tech minTech">
+                                Technologies: <img src="/logos/htmllogo.png" alt="HTML"> <img src="/logos/csslogo.png"
+                                    alt="CSS"> <img src="/logos/jslogo.png" alt="JS">
+                            </p>
+                        </div>
+
+                        <!-- Project Links -->
+
+                        <div class="projectLinks">
+                            <a href=" https://barbendavid99.github.io/Calculator/" target="_blank">Try Demo <img
+                                    src="/assets/externallink2.png" /></a>
+                            <a href="https://github.com/BarBenDavid99/Calculator" target="_blank">View Code <img
+                                    src="/logos/github3.png" /></a>
+                            <a href="toDownload/calculator.rar" download>Download <img src="/assets/download.png" /></a>
+                        </div>
+
+
+
+                        <div id="groceryList" data-aos="fade-up">
+                            <h1 class="projectTitle">Grocery List</h1>
+                            <div class="projectImage" id="groceryListImg"></div><br>
+                            <!-- Description of project -->
+                            <div class="project-description">
+                                <p class="p-project">
+                                    This application presents a user-friendly shopping list in which a list of groceries
+                                    and the required quantity of that
+                                    grocery can be built.
+                                    In the list you can mark "V" when you picked up the product at the grocery store and
+                                    the product will be marked
+                                    accordingly.
+                                    You can edit the name of the block / quantity according to your wish or delete it
+                                    from the list.
+                                    The list can be saved by local storage.
+                                </p>
+                                <p class="p-project p-tech minTech">
+                                    Technologies: <img src="/logos/htmllogo.png" alt="HTML"> <img
+                                        src="/logos/csslogo.png" alt="CSS"> <img src="/logos/jslogo.png" alt="JS">
+                                </p>
+                            </div>
+
+                            <!-- Project Links -->
+
+                            <div class="projectLinks">
+                                <a href="https://barbendavid99.github.io/GroceryList/" target="_blank">Try Demo <img
+                                        src="/assets/externallink2.png" /></a>
+                                <a href="https://github.com/BarBenDavid99/GroceryList" target="_blank">View Code <img
+                                        src="/logos/github3.png" /></a>
+                                <a href="toDownload/grocery.rar" download>Download <img
+                                        src="/assets/download.png" /></a>
+                            </div>
+
+
+
+                            <div id="gallery" data-aos="fade-up">
+                                <h1 class="projectTitle">Gallery</h1>
+                                <div class="projectImage" id="galleryImg"></div><br>
+                                <!-- Description of project -->
+                                <div class="project-description">
+                                    <p class="p-project">
+                                        This Gallery code shows images that change every so often.
+                                        The images are divided by classes using OOP.
+                                        The user also has arrows to move to the previous / next image.
+                                        So that there is no confusion or discomfort in the user's eye when changing the
+                                        images, there is a function that causes
+                                        them to change together only.
+                                        In this specific gallery I used pictures of the national champion who I happen
+                                        to be a fan of.
+                                    </p>
+                                    <p class="p-project p-tech minTech">
+                                        Technologies: <img src="/logos/htmllogo.png" alt="HTML"> <img
+                                            src="/logos/csslogo.png" alt="CSS"> <img src="/logos/jslogo.png" alt="JS">
+                                        <img src="/logos/oop.png" alt="OOP">
+                                    </p>
+                                </div>
+
+                                <!-- Project Links -->
+
+                                <div class="projectLinks">
+                                    <a href="https://barbendavid99.github.io/Gallery/" target="_blank">Try Demo <img
+                                            src="/assets/externallink2.png" /></a>
+                                    <a href="https://github.com/BarBenDavid99/Gallery" target="_blank">View Code <img
+                                            src="/logos/github3.png" /></a>
+                                    <a href="toDownload/gallery.rar" download>Download <img
+                                            src="/assets/download.png" /></a>
+                                </div>
+
+                                <div id="memory" data-aos="fade-up">
+                                    <h1 class="projectTitle">Memory Game</h1>
+                                    <div class="projectImage" id="memoryImg"></div><br>
+                                    <!-- Description of project -->
+                                    <div class="project-description">
+                                        <p class="p-project">
+                                            This Memory game is coded so that two users can play against each other with
+                                            the player with the most matches at the end
+                                            of the game appearing as the winner of the game with a cool confetti effect.
+                                            There is an option for the user to choose the maximum amount of adjustments
+                                            in the game according to his wish in order
+                                            to increase the level of difficulty and the length of the game.
+                                            You can also see the time record when a game ends, the time is saved by
+                                            local storage.
+                                        </p>
+                                        <p class="p-project p-tech minTech">
+                                            Technologies: <img src="/logos/htmllogo.png" alt="HTML"> <img
+                                                src="/logos/csslogo.png" alt="CSS"> <img src="/logos/jslogo.png"
+                                                alt="JS">
+                                        </p>
+                                    </div>
+
+                                    <!-- Project Links -->
+
+                                    <div class="projectLinks">
+                                        <a href="https://barbendavid99.github.io/Memory/" target="_blank">Try Demo <img
+                                                src="/assets/externallink2.png" /></a>
+                                        <a href="https://github.com/BarBenDavid99/Memory" target="_blank">View Code <img
+                                                src="/logos/github3.png" /></a>
+                                        <a href="toDownload/memory.rar" download>Download <img
+                                                src="/assets/download.png" /></a>
+                                    </div>
+
+
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div id="about">
+                                <div id="aboutMeTitle" data-aos="fade-up">
+                                    <h1>About Me</h1>
+                                </div>
+
+                                <div id="aboutMeMain">
+                                    <div id="selfpic" data-aos="fade-up"></div>
+
+                                    <p data-aos="fade-up" id="pIntro">
+                                        Hi! I’m Bar Ben David, a full-stack web developer based in Rosh Haayin , Israel.
+                                        After working
+                                        as
+                                        an
+                                        Team manager at a service center, I’ve decided to take the leap to pursue a
+                                        career in
+                                        Development. I’ve enrolled in Full Stack Web Development course.
+                                        I can say that applying to a coding bootcamp
+                                        has been the
+                                        best
+                                        decision I have ever made in my life. I love to learn new technologies and flex
+                                        my creativity to
+                                        create
+                                        amazing
+                                        things.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div id="skillsDiv">
+                                <div id="techTitle" data-aos="fade-up">
+                                    <h3>Technologies I've Worked With</h3>
+                                </div>
+                                <div id="skillsMain">
+                                    <div class="techDiv" id="frontend" data-aos="fade-up">
+                                        <div class="techDivTitle">
+                                            Frontend
+                                        </div>
+                                        <div class="tech tooltip">
+                                            <img src="/logos/reactlogo2.png" alt="React / React Native" />
+                                            <span class="tooltiptext">React / React Native</span>
+                                        </div>
+                                        <div class="tech tooltip">
+                                            <img src="/logos/htmllogo.png" alt="HTML" />
+                                            <span class="tooltiptext">HTML</span>
+                                        </div>
+                                        <div class="tech tooltip">
+                                            <img src="/logos/csslogo.png" alt="CSS" />
+                                            <span class="tooltiptext">CSS</span>
+                                        </div>
+                                        <div class="tech tooltip">
+                                            <img src="/logos/bootstraplogo.png" alt="Bootstrap" />
+                                            <span class="tooltiptext">Bootstrap</span>
+                                        </div>
+                                        <div class="tech tooltip">
+                                            <img src="/logos/oop.png" alt="OOP" />
+                                            <span class="tooltiptext">OOP</span>
+                                        </div>
+                                        <div class="tech tooltip">
+                                            <img src="/logos/sass.png" alt="sass" />
+                                            <span class="tooltiptext">SASS</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="techDiv" id="languages" data-aos="fade-up">
+                                        <div class="techDivTitle">
+                                            Languages
+                                        </div>
+                                        <div class="tech tooltip">
+                                            <img src="/logos/jslogo.png" alt="JavaScript" />
+                                            <span class="tooltiptext">JavaScript</span>
+                                        </div>
+                                        <div class="tech tooltip">
+                                            <img src="/logos/Typescriptlogo2020.png" alt="TypeScript" />
+                                            <span class="tooltiptext">TypeScript</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="techDiv" id="tools" data-aos="fade-up">
+                                        <div class="techDivTitle">
+                                            Tools
+                                        </div>
+                                        <div class="tech tooltip">
+                                            <img src="/logos/vscode.png" alt="VS Code" />
+                                            <span class="tooltiptext">VS Code</span>
+                                        </div>
+                                        <div class="tech tooltip">
+                                            <img src="/logos/postman.png" alt="Postman" />
+                                            <span class="tooltiptext">Postman</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div id="contact">
+                                <div id="contactTitle" data-aos="fade-up">
+                                    <h1>Contact</h1>
+                                    <form action="https://formspree.io/f/xaygnkar" method="POST" name="contact"
+                                        method="POST" netlify-honeypot="bot-field" data-netlify="true"
+                                        data-aos="fade-up">
+                                        <div class="hidden">
+                                            <label>Fill this if you are not human: <input name="bot-field" /></label>
+                                        </div>
+                                        <div class="group">
+                                            <input type="text" name="name" required="required" /><span
+                                                class="highlight"></span><span class="bar"></span>
+                                            <label>Name</label>
+                                        </div>
+                                        <div class="group">
+                                            <input type="text" name="email" required="required" /><span
+                                                class="highlight"></span><span class="bar"></span>
+                                            <label>Email</label>
+                                        </div>
+                                        <div class="group">
+                                            <textarea type="textarea" name="message" rows="5"
+                                                required="required"></textarea><span class="highlight"></span><span
+                                                class="bar"></span>
+                                            <label>Message</label>
+                                        </div>
+                                        <div class="btn-box">
+                                            <button class="btn btn-submit" type="submit">Send Message<img
+                                                    src="assets/paper-plane.png"></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+    </section>
+    <footer>
+        <div id="footer-links">
+            <a href="mailto:barbendavid12@gmail.com" target="_blank">
+                <img src="assets/email.png">
+            </a>
+            <a href="https://www.linkedin.com/in/bar-ben-david-346a33260/" target="_blank">
+                <img src="logos/linkedin.png">
+            </a>
+            <a href="https://github.com/BarBenDavid99" target="_blank">
+                <img src="logos/github3.png">
+            </a>
+        </div>
+        <div style="color: green;" id="copyright">&#169; <span id="year"></span> Bar Ben David. All rights reserved.
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 </body>
 

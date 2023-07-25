@@ -39,3 +39,8 @@ const navSlide = () => {
 };
 
 navSlide();
+
+let date = new Date();
+let year = date.getFullYear();
+let yearSpan = document.getElementById("year");
+yearSpan.textContent = year;
