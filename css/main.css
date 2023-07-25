@@ -469,23 +469,23 @@ button:hover {
   background-size: cover;
 }
 #snakeImg{
-    background-image:url("/images/snake.jpg")
+    background-image:url("../images/snake.jpg")
 }
 #multipicationTableImg{
-  background-image:url("/images/multipicationTable.jpg")
+  background-image:url("../images/multipicationTable.jpg")
 }
 #calculatorImg{
-  background-image: url("/images/calculator.jpg");
+  background-image: url("../images/calculator.jpg");
 }
 #groceryListImg{
-  background-image: url("/images/groceryList.jpg");
+  background-image: url("../images/groceryList.jpg");
 }
 #galleryImg{
-  background-image: url("/images/gallery.jpg");
+  background-image: url("../images/gallery.jpg");
 }
 
 #memoryImg{
-  background-image: url("/images/memory.jpg");
+  background-image: url("../images/memory.jpg");
 }
 
 
