@@ -10,6 +10,7 @@
 
 
     <script src="scripts/main.js" defer></script>
+    <script src="scripts/projects.js" defer></script>
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -32,6 +33,7 @@
     </header>
 
     <section>
+
         <div id="top" class="secText">
             <h2>Hello! My Name is</h2>
             <h1 id="nameh1">Bar Ben David.</h1>
@@ -43,6 +45,7 @@
 
 
         <div id="projects">
+
             <div id="projectsTitle" data-aos="fade-up">
                 <h1>Portfolio</h1>
             </div>
@@ -51,31 +54,39 @@
                 <h1 class="projectTitle">Snake</h1>
                 <div class="projectImage" id="snakeImg"></div><br>
                 <!-- Description of project -->
-                <div class="project-description">
-                    <p class="p-project">
-                        The snake game presents the old and well-known game.
-                        The score is determined by the length of the snake.
-                        In this game there are improvements to the game experience by using sound effects, record
-                        keeping by local storage so
-                        that the user has a goal to break his personal record or the record of his friends.
-                        The game is addictive and suitable for all ages.
-                    </p>
-                    <p class="p-project p-tech minTech">
-                        Technologies: <img src="logos/htmllogo.png" alt="HTML"> <img src="logos/csslogo.png" alt="CSS">
-                        <img src="logos/jslogo.png" alt="JS">
-                    </p>
+                <p class="p-project">
+                    Bla Bla
+                </p>
+                <button class="modalBtn">Show More...</button>
+                <div id="snakeModal" class="modal">
+                    <div class="project-description modal-content">
+                        <span class="close">&times</span>
+                        <div class="modal-image" id="snakeImg"></div><br>
+                        <p class="p-project">
+                            The snake game presents the old and well-known game.
+                            The score is determined by the length of the snake.
+                            In this game there are improvements to the game experience by using sound effects, record
+                            keeping by local storage so
+                            that the user has a goal to break his personal record or the record of his friends.
+                            The game is addictive and suitable for all ages.
+                        </p>
+                        <p class="p-project p-tech minTech">
+                            Technologies: <img src="logos/htmllogo.png" alt="HTML"> <img src="logos/csslogo.png"
+                                alt="CSS">
+                            <img src="logos/jslogo.png" alt="JS">
+                        </p>
+                    </div>
+
+                    <!-- Project Links -->
+
+                    <div class="projectLinks">
+                        <a href="https://barbendavid99.github.io/Snake/" target="_blank">Try Demo <img
+                                src="assets/externallink2.png" /></a>
+                        <a href="https://github.com/BarBenDavid99/Snake" target="_blank">View Code <img
+                                src="logos/github3.png" /></a>
+                        <a href="toDownload/snake.rar" download>Download <img src="assets/download.png" /></a>
+                    </div>
                 </div>
-
-                <!-- Project Links -->
-
-                <div class="projectLinks">
-                    <a href="https://barbendavid99.github.io/Snake/" target="_blank">Try Demo <img
-                            src="assets/externallink2.png" /></a>
-                    <a href="https://github.com/BarBenDavid99/Snake" target="_blank">View Code <img
-                            src="logos/github3.png" /></a>
-                    <a href="toDownload/snake.rar" download>Download <img src="assets/download.png" /></a>
-                </div>
-
 
 
                 <div id="multipicationTable" data-aos="fade-up">
@@ -123,7 +134,7 @@
                                 design.
                             </p>
                             <p class="p-project p-tech minTech">
-                                Technologies: <img src="logos/htmllogo.png" alt="HTML"> <img src="/logos/csslogo.png"
+                                Technologies: <img src="logos/htmllogo.png" alt="HTML"> <img src="logos/csslogo.png"
                                     alt="CSS"> <img src="logos/jslogo.png" alt="JS">
                             </p>
                         </div>
