@@ -825,6 +825,7 @@ footer {
     transform: rotate(45deg) translate(-5px, -6px);
   }
 
+
   p {
     line-height: 1.6;
     padding: 8px;
@@ -832,6 +833,10 @@ footer {
     font-size: 1rem;
   }
 
+  .modal-image{
+    width: 90%;
+    height: 200px;
+  }
   #skillsMain {
     flex-direction: row;
   }
@@ -883,8 +888,25 @@ footer {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
   
+  .modal{
+   padding-top: 30px; /* Location of the box */
+  left: 0;
+  top: 5%;
+  width: 100%; /* Full width */
+  height: 100%
+  }
+  .modal-content p{
+font-size: 12px;
+width: 100%;
+  }
+  .modal-image{
+    width: 90%;
+    height: 100px;
+  }
+
+
   /* Form Styling */
   form {
     width: 300px;
