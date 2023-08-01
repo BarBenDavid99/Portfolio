@@ -214,7 +214,7 @@ h3 {
   z-index: 1; /* Sit on top */
   padding-top: 30px; /* Location of the box */
   left: 20%;
-  top: 5%;
+  top: 2%;
   width: 60%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -237,7 +237,7 @@ margin: 0 auto;
 
 .modal-image{
   width: 95%;
-  height: 350px;
+  height: 300px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -889,7 +889,18 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
-  
+  .projectLinks a{
+     font-size: 0.6rem;
+  border-radius: 40px;
+  margin-left: 16px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  padding-top: 3px;
+  padding-left: 9px;
+  padding-right: 9px;
+  }
+
   .modal{
    padding-top: 30px; /* Location of the box */
   left: 0;
