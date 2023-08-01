@@ -1,25 +1,41 @@
-// Get the modal
-let modal = document.getElementById("snakeModal");
 
-// Get the button that opens the modal
-var btn = document.querySelector(".modalBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal
-btn.onclick = function () {
-    modal.style.display = "block";
+function openModal(modalId) {
+    let modal = document.getElementById(modalId);
+    if (modal) {
+        modal.style.display = "block";
+    }
 }
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-    if (event.target == modal) {
+function closeModal(modalId) {
+    let modal = document.getElementById(modalId)
+    if (modal) {
         modal.style.display = "none";
     }
 }
+
+
+let buttons = document.querySelectorAll(".modalBtn");
+
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+        let modalId = button.getAttribute("data-modal");
+        openModal(modalId);
+    });
+});
+
+let closeButtons = document.querySelectorAll(".close");
+
+closeButtons.forEach((closeButton) => {
+    closeButton.addEventListener("click", () => {
+        let modal = closeButton.closest(".modal");
+        if (modal) {
+            modal.style.display = "none";
+        }
+    });
+});
+
+window.onclick = function (event) {
+    if (event.target.classList.contains("modal")) {
+        event.target.style.display = "none";
+    }
+};
